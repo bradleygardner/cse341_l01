@@ -2,7 +2,7 @@ const visiterRoute = (req, res) => {
     res.send("Hello Visiter");
 };
 
-const bradleyRoute = (req, res) => {
+const joshRoute = (req, res) => {
     res.send("Hello Josh");
 };
 
@@ -12,6 +12,6 @@ const brotherBirchRoute = (req, res) => {
 
 module.exports = {
     visiterRoute,
-    bradleyRoute,
+    bradleyRoute: joshRoute,
     brotherBirchRoute,
 };
