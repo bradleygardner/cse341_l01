@@ -1,0 +1,22 @@
+{
+  "name": "cse341_w01",
+  "version": "1.0.0",
+  "description": "First project for cse341",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cse341_W01"
+  },
+  "author": "Bradley Gardner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
