@@ -3,7 +3,7 @@ const visiterRoute = (req, res) => {
 };
 
 const bradleyRoute = (req, res) => {
-    res.send("Hello Bradley");
+    res.send("Hello Josh");
 };
 
 const brotherBirchRoute = (req, res) => {
