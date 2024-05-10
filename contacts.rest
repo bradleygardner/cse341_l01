@@ -4,7 +4,32 @@ GET http://localhost:3000/contacts/6634fe1319b1813c43b3f958
 ###
 GET http://localhost:3000/contacts/6634fe9719b1813c43b3f959 
 ###
-GET http://localhost:3000/contacts/6634fec619b1813c43b3f95a 
+GET http://localhost:3000/contacts/6634fec619b1813c43b3f95a
+###
+POST http://localhost:3000/contacts/
+content-type: application/json
+
+{
+    "firstName": "Chris",
+    "lastName": "Hanson",
+    "email": "imcool@email.com",
+    "favoriteColor": "blue",
+    "birthday": "November 2, 2002"
+}
+###
+PUT http://localhost:3000/contacts/663e906d005ba026e26ed524
+content-type: application/json
+
+{
+    "firstName": "Chris",
+    "lastName": "Hanson",
+    "email": "imcool@email.com",
+    "favoriteColor": "green",
+    "birthday": "November 3, 2002"
+}
+###
+DELETE  http://localhost:3000/contacts/6634fec619b1813c43b3f95a
+
 
 ### render requests
 GET https://cse341-l01-8bx5.onrender.com/contacts
