@@ -21,14 +21,14 @@ PUT http://localhost:3000/contacts/663e906d005ba026e26ed524
 content-type: application/json
 
 {
-    "firstName": "Chris",
+    "firstName": "John",
     "lastName": "Hanson",
     "email": "imcool@email.com",
     "favoriteColor": "green",
     "birthday": "November 3, 2002"
 }
 ###
-DELETE  http://localhost:3000/contacts/6634fec619b1813c43b3f95a
+DELETE  http://localhost:3000/contacts/663e906d005ba026e26ed524
 
 
 ### render requests
@@ -39,3 +39,28 @@ GET https://cse341-l01-8bx5.onrender.com/contacts/6634fe1319b1813c43b3f958
 GET https://cse341-l01-8bx5.onrender.com/contacts/6634fe9719b1813c43b3f959 
 ###
 GET https://cse341-l01-8bx5.onrender.com/contacts/6634fec619b1813c43b3f95a 
+
+###
+POST https://cse341-l01-8bx5.onrender.com/contacts/
+content-type: application/json
+
+{
+    "firstName": "James",
+    "lastName": "Jacobson",
+    "email": "imcool@email.com",
+    "favoriteColor": "blue",
+    "birthday": "November 2, 2002"
+}
+###
+PUT https://cse341-l01-8bx5.onrender.com/contacts/663eeec55908891a038eb8b3
+content-type: application/json
+
+{
+    "firstName": "Matthew",
+    "lastName": "Jacobson",
+    "email": "imstillcool@email.com",
+    "favoriteColor": "purple",
+    "birthday": "march 3, 2002"
+}
+###
+DELETE  https://cse341-l01-8bx5.onrender.com/contacts/663eeec55908891a038eb8b3
